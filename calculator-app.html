@@ -1,0 +1,86 @@
+<!--Created by Oscar Dahbar-->
+
+<!DOCTYPE html>
+
+<html>
+
+<head lang="en">
+
+    <title>Calculator App</title>
+
+    <link rel="stylesheet" href="C:\Users\ASUS\Documents\Codes\Frontend Codes\Calculator App\calculator-app.css">
+    <script defer src="C:\Users\ASUS\Documents\Codes\Frontend Codes\Calculator App\calculator-app.js"></script>
+    
+    <!--Linking Jquery library-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    <!--Making the body responsive as the device width-->
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <!--Google Fonts-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+    </style>
+
+</head>
+
+<body>
+
+    <section>
+
+        <!--Calculator body-->
+        <div id="calculator">
+
+            <!--Brand and Themes-->
+            <div id="cal-head">
+                <h1 id="brand">Calc</h1>
+                <div id="themes">
+                    <p id="theme-txt">THEME</p>
+                    <div id="theme-block">
+                        <div id="theme-dot"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Section of output numbers-->
+            <div id="cal-output">
+                <div id="upper-nums">
+                    <p id="input-num" class="ops">0.0</p>
+                    <p id="symbol" class="ops">+</p>
+                </div>
+                <p id="output">0.00</p>
+            </div>
+
+            <!--All Buttons-->
+            <div id="cal-input">
+                <button id="b7" class="btn" onkeypress="">7</button>
+                <button id="b8" class="btn">8</button>
+                <button id="b9" class="btn">9</button>
+                <button id="bDEL" class="btn">DEL</button>
+                <button id="b4" class="btn">4</button>
+                <button id="b5" class="btn">5</button>
+                <button id="b6" class="btn">6</button>
+                <button id="bPLS" class="btn">+</button>
+                <button id="b1" class="btn">1</button>
+                <button id="b2" class="btn">2</button>
+                <button id="b3" class="btn">3</button>
+                <button id="bSUB" class="btn">-</button>
+                <button id="bDOT" class="btn">.</button>
+                <button id="b0" class="btn">0</button>
+                <button id="bDIV" class="btn">/</button>
+                <button id="bMUL" class="btn">×</button>
+                <button id="bRES" class="btn">RESET</button>
+                <button id="bEQL" class="btn">=</button>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>

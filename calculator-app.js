@@ -72,6 +72,8 @@ $(function () {
         $("#output").text("0.00");
 
         firstInput = [];
+        xArr = [];
+        yArr = [];
 
     });
 
@@ -82,6 +84,8 @@ $(function () {
         $(".ops").css({"display": "none"});
 
         firstInput = [];
+        xArr = [];
+        yArr = [];
         
     });
 
